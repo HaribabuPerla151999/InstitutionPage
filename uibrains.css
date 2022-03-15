@@ -1,0 +1,99 @@
+.logo{
+    height:30px;
+    width:30px;
+    color:red;
+    border-radius: 100%;
+}
+.bg-teal{
+    background-color: #27ddde!important;
+}
+.text-teal{
+    color: #27ddde !important;
+}
+.bg-container{
+    background:white url("https://github.com/thenaveensaggam/Company_Website_UiBrains/blob/master/UiBrains_Technologies/images/bg-image.jpg?raw=true") no-repeat scroll center;
+    height:100vh;
+    color:white;
+}
+.bg-wrapper{
+    background-color: rgba(0,0,0,0.5);
+    height:100%;
+}
+
+.fa-play-circle{
+   animation: glow-icon 1.8s infinite linear;
+   border-radius:50%;
+   border:3px solid transparent;
+}
+@keyframes glow-icon {
+    0%,100%{
+        transform:scale(1,1)
+    }
+    50%{
+        transform:scale(1.07,1.07);
+        box-shadow:0 0 10px white;
+        border:3px dotted white;
+    }
+}
+.icons{
+    padding:20px;
+    border-radius: 50%;
+    
+}
+.providing-container{
+    background: linear-gradient(45deg,black,darkslategray);
+}
+.gallary-img{
+    border-radius: 50px;
+    border:3px solid #27ddde;
+    box-shadow:0 0 10px black;
+    transition:all 0.8s;
+    cursor: pointer;
+}
+.gallary-img:hover{
+    transform: scale(1.07,1.07);
+}
+.btn{
+    border-radius: 50px;
+}
+.btn-outline-white{
+    border:3px solid #27ddde !important;
+   
+}
+.btn-outline-white:hover{
+    border:3px solid #27ddde !important;
+    box-shadow: 0 0 10px #27ddde !important;
+
+   
+}
+.trainer-img{
+    margin-top:-50px;
+    border-radius:50px;
+    box-shadow: 0 0 10px #27ddde;
+}
+.trainer-card{
+    background-color: #27ddde;
+    transition: all 0.5s;
+}
+.trainer-card:hover{
+    transform:translateY(-20px);
+    background-color: black;
+    color:white;
+    box-shadow: 0 0 20px #27ddde ;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
